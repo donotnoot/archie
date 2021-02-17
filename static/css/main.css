@@ -1,10 +1,9 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
+--maincolor: lightblue;
+--bordercl: paleturquoise;
+--callouctcolor: aliceblue;
+--hovercolor: black;
 }
 html {
   color: #232333;
@@ -26,7 +25,7 @@ body{
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   line-height: 1.5;
 }
 
@@ -217,12 +216,12 @@ svg{
   color: white;
 }
 .draft-label{ 
-    color: var(--bordercl);
+    color: #000;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
     margin-left: 6px;
-    background-color: #f9f2f4;
+    background-color: #CCCCCC;
 }
 .highlight {
   position: relative;
